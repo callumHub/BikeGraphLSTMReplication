@@ -1,0 +1,869 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 17 files
+Detected 32 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV12.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV12.py:371:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV12.py:458:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV9.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV9.py:360:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV9.py:446:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV8.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV8.py:354:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV8.py:440:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV13.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV13.py:371:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV13.py:458:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV11.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV11.py:370:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV11.py:457:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV10.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV10.py:360:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV10.py:446:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV14.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV14.py:362:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV14.py:448:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV15.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV15.py:364:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV15.py:450:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV4.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV4.py:349:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV4.py:434:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV5.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV5.py:363:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV5.py:449:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV7.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV7.py:354:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV7.py:440:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV6.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV6.py:396:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV6.py:482:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV2.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV2.py:355:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV2.py:441:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV3.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV3.py:349:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV3.py:434:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV1.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV1.py:372:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV1.py:458:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: GraphFusionModel/GraphFusionModelV0.py
+--------------------------------------------------------------------------------
+GraphFusionModel/GraphFusionModelV0.py:352:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+GraphFusionModel/GraphFusionModelV0.py:437:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+================================================================================
+Detailed log follows:
+
+================================================================================
+================================================================================
+Input tree: 'GraphFusionModel/'
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV12.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV12.py'
+--------------------------------------------------------------------------------
+
+209:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+210:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+212:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+216:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+217:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+220:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+221:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+224:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+225:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+236:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+240:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+241:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+247:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+250:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+255:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+256:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+258:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+261:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+265:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+266:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+268:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+269:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+274:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+275:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+276:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+277:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+280:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+283:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+284:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+291:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+294:39: INFO: Added keywords to args of function 'tf.reduce_sum'
+295:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+296:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+298:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+299:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+305:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+309:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+371:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+386:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+458:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV9.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV9.py'
+--------------------------------------------------------------------------------
+
+206:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+208:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+209:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+213:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+217:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+218:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+228:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+231:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+232:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+238:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+241:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+246:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+247:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+249:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+252:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+256:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+257:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+259:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+260:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+265:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+266:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+267:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+268:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+271:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+273:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+274:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+281:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+284:39: INFO: Added keywords to args of function 'tf.reduce_sum'
+285:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+286:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+288:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+289:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+295:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+299:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+360:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+375:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+446:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV8.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV8.py'
+--------------------------------------------------------------------------------
+
+206:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+208:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+209:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+213:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+217:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+222:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+225:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+226:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+232:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+235:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+240:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+241:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+243:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+246:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+250:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+251:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+253:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+254:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+259:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+260:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+261:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+262:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+265:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+267:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+268:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+275:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+279:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+280:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+282:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+283:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+289:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+293:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+354:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+369:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+440:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV13.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV13.py'
+--------------------------------------------------------------------------------
+
+209:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+210:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+212:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+216:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+217:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+220:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+221:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+224:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+225:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+236:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+240:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+241:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+247:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+250:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+255:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+256:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+258:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+261:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+265:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+266:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+268:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+269:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+274:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+275:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+276:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+277:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+280:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+283:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+284:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+291:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+294:39: INFO: Added keywords to args of function 'tf.reduce_sum'
+295:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+296:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+298:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+299:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+305:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+309:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+371:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+386:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+458:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV11.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV11.py'
+--------------------------------------------------------------------------------
+
+209:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+210:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+212:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+216:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+217:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+220:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+221:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+224:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+225:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+236:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+240:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+241:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+247:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+250:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+255:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+256:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+258:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+261:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+265:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+266:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+268:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+269:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+274:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+275:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+276:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+277:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+280:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+282:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+283:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+290:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+293:39: INFO: Added keywords to args of function 'tf.reduce_sum'
+294:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+295:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+297:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+298:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+304:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+308:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+370:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+385:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+457:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV10.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV10.py'
+--------------------------------------------------------------------------------
+
+206:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+208:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+209:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+213:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+217:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+218:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+228:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+231:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+232:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+238:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+241:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+246:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+247:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+249:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+252:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+256:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+257:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+259:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+260:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+265:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+266:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+267:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+268:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+271:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+273:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+274:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+281:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+284:39: INFO: Added keywords to args of function 'tf.reduce_sum'
+285:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+286:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+288:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+289:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+295:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+299:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+360:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+375:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+446:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV14.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV14.py'
+--------------------------------------------------------------------------------
+
+204:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+205:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+206:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+209:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+211:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+212:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+215:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+216:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+226:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+229:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+230:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+238:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+241:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+246:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+247:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+251:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+254:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+258:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+259:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+261:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+262:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+267:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+268:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+269:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+270:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+273:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+275:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+276:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+283:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+286:39: INFO: Added keywords to args of function 'tf.reduce_sum'
+287:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+288:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+290:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+291:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+297:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+301:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+362:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+377:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+448:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV15.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV15.py'
+--------------------------------------------------------------------------------
+
+206:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+208:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+209:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+213:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+217:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+218:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+228:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+231:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+232:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+240:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+243:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+248:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+249:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+253:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+256:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+260:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+261:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+263:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+264:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+269:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+270:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+271:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+272:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+275:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+277:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+278:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+285:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+288:39: INFO: Added keywords to args of function 'tf.reduce_sum'
+289:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+290:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+292:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+293:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+299:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+303:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+364:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+379:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+450:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV4.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV4.py'
+--------------------------------------------------------------------------------
+
+209:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+210:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+212:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+216:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+217:34: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+217:61: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+220:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+221:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+227:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+230:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+235:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+236:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+238:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+241:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+245:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+246:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+248:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+249:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+254:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+255:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+256:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+257:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+260:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+263:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+264:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+271:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+275:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+276:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+278:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+279:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+285:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+289:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+349:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+364:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+434:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV5.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV5.py'
+--------------------------------------------------------------------------------
+
+206:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+208:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+209:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+213:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:34: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+214:61: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+217:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+218:32: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+218:59: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+221:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+222:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+231:43: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+232:45: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+240:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+243:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+248:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+249:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+251:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+254:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+258:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+259:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+261:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+262:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+267:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+268:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+269:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+270:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+273:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+276:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+277:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+284:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+288:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+289:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+291:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+292:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+298:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+302:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+363:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+378:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+449:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV7.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV7.py'
+--------------------------------------------------------------------------------
+
+206:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+208:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+209:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+213:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+217:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+218:44: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+222:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+225:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+226:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+232:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+235:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+240:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+241:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+243:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+246:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+250:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+251:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+253:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+254:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+259:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+260:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+261:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+262:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+265:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+267:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+268:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+275:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+278:39: INFO: Added keywords to args of function 'tf.reduce_sum'
+279:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+280:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+282:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+283:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+289:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+293:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+354:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+369:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+440:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV6.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV6.py'
+--------------------------------------------------------------------------------
+
+206:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+208:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+209:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+213:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:34: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+214:61: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+217:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+218:32: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+218:59: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+221:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+222:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+231:43: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+232:45: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+240:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+243:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+248:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+249:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+251:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+254:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+258:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+259:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+261:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+262:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+267:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+268:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+269:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+270:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+273:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+276:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+277:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+284:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+288:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+289:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+291:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+292:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+298:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+302:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+396:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+411:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+482:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV2.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV2.py'
+--------------------------------------------------------------------------------
+
+205:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+206:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+208:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+210:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+212:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+213:34: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+213:61: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+216:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+217:32: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+217:59: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+220:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+221:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+232:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+235:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+240:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+241:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+243:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+246:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+250:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+251:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+253:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+254:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+259:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+260:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+261:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+262:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+265:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+268:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+269:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+276:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+280:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+281:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+283:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+284:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+290:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+294:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+355:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+370:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+441:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV3.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV3.py'
+--------------------------------------------------------------------------------
+
+209:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+210:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+212:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+214:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+216:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+217:34: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+217:61: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+220:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+221:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+227:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+230:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+235:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+236:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+238:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+241:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+245:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+246:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+248:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+249:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+254:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+255:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+256:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+257:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+260:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+263:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+264:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+271:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+275:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+276:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+278:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+279:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+285:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+289:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+349:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+364:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+434:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV1.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV1.py'
+--------------------------------------------------------------------------------
+
+205:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+206:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+207:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+208:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+212:37: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+213:34: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+213:61: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+216:34: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+217:34: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+223:61: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+228:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+229:35: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+230:32: INFO: Renamed 'tf.matrix_diag' to 'tf.linalg.diag'
+230:59: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+233:32: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+234:32: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+240:57: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+248:18: INFO: Renamed 'tf.contrib.rnn.LSTMStateTuple' to 'tf.nn.rnn_cell.LSTMStateTuple'
+251:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+256:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+257:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+259:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+262:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+266:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+267:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+269:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+270:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+275:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+276:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+277:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+278:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+281:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+285:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+286:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+293:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+297:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+298:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+300:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+301:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+307:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+311:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+372:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+387:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+458:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/GraphFusionModelV0.py'
+ outputting to 'GraphFusionModel_V2/GraphFusionModelV0.py'
+--------------------------------------------------------------------------------
+
+210:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+211:22: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+212:23: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+213:34: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+215:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+221:46: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+223:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+224:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+230:37: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+233:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+238:22: INFO: Renamed 'tf.nn.rnn_cell.LSTMCell' to 'tf.compat.v1.nn.rnn_cell.LSTMCell'
+239:22: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+241:42: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+244:38: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+248:23: INFO: Added keywords to args of function 'tf.reduce_mean'
+249:33: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+251:23: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+252:23: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+257:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+258:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+259:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+260:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+263:19: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+266:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+267:25: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+274:24: INFO: Changing keep_prob arg of tf.nn.dropout to rate
+
+278:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+279:25: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+281:15: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+282:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+288:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+292:21: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+352:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+367:15: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+437:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'GraphFusionModel/resultMerge.py'
+ outputting to 'GraphFusionModel_V2/resultMerge.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
