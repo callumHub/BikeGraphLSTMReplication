@@ -5,8 +5,8 @@ Recovery process documented at https://github.com/Di-Chai/GraphCNN-Bike/issues
 
 #### TO RUN
 0. Download the recovered data from: https://zenodo.org/records/11039616
-1. To run, first must preprocess all of the data following directions in 
-the PrepareData Directory. 
+1. preprocess all of the data following directions in 
+the PrepareData Directory. (This has already been done)
 2. Next, change what model script you will run in Main.py 
 3. After setting up a python venv. Set the number of jobs in Main.py to your CPU count. 
 4. python Main.py 
