@@ -79,9 +79,9 @@ saveSteps = 100
 autoEncoderFileExist = False
 preFileExist = False
 if os.listdir(autoEncoderModelFileSavePath).__len__() > 0:
-    autoEncoderFileExist = True #CHANGED
+    autoEncoderFileExist = False #CHANGED
 if os.listdir(preModelFileSavePath).__len__() > 0:
-    preFileExist = True
+    preFileExist = False
 
 trainAutoEncoder = True
 trainPreModel = True
